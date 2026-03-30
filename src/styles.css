@@ -1,0 +1,64 @@
+@import '../node_modules/@syncfusion/ej2-angular-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-angular-spreadsheet/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-grids/styles/material.css';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f6fa;
+}
+
+
+.layout {
+
+  display: flex;
+
+  flex-direction: column;
+
+  height: 100vh;
+
+}
+ 
+.body {
+
+  display: flex;
+
+  flex: 1;
+
+  overflow: hidden;
+
+}
+ 
+app-sidebar {
+
+  width: 240px;
+
+  background-color: #1f2937;
+
+  color: #fff;
+
+}
+ 
+.content {
+
+  flex: 1;
+
+  padding: 16px;
+
+  background-color: #f5f6fa;
+
+  overflow-y: auto;
+
+}
+
+ 
