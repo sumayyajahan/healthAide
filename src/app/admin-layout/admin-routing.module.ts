@@ -3,6 +3,7 @@ import { AdminLayoutComponent } from "./admin-layout.component";
 
 import { ContentComponent } from "./components/content/content.component";
 import { SpreadsheetComponent } from "./components/spreadsheet/spreadsheet.component";
+import { PagedesignComponent } from "./components/pagedesign/pagedesign.component";
 
 export const adminRoutes: Routes = [
       {
@@ -18,5 +19,9 @@ export const adminRoutes: Routes = [
         path: 'spreadsheet',
         component: SpreadsheetComponent,
       },
+      {
+        path: 'pagedesign',
+        component: PagedesignComponent,
+      }
      
     ]
