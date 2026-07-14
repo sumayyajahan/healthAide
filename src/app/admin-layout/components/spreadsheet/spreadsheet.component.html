@@ -1,5 +1,32 @@
 <div class="container">
  <ejs-spreadsheet>
-    
+    <e-sheets>
+        <e-sheet name="Patients Details">
+         <e-ranges>
+            <e-range [dataSource]="data">
+            </e-range>
+         </e-ranges>
+         <e-rows>
+            <e-row>
+              <e-cells>
+                <e-cell value="Category"></e-cell>
+                <e-cell value="Category"></e-cell>
+              </e-cells>
+            </e-row>
+            <e-row>
+                <e-cells>
+                    <e-cell></e-cell>
+                </e-cells>
+            </e-row>
+         </e-rows>
+         <e-columns>
+            <e-column [width]=100></e-column>
+            <e-column [width]=100></e-column>
+            <e-column [width]=100></e-column>
+            <e-column [width]=100></e-column>
+            <e-column [width]=100></e-column>
+         </e-columns>
+        </e-sheet>
+    </e-sheets>
  </ejs-spreadsheet>
 </div>

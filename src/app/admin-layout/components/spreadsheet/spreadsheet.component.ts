@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { SpreadsheetAllModule } from "@syncfusion/ej2-angular-spreadsheet";
+import { PatientDetails } from './data';
+import { DataManager, WebApiAdaptor } from '@syncfusion/ej2-data';
 
 @Component({
   selector: 'app-spreadsheet',
@@ -9,5 +11,10 @@ import { SpreadsheetAllModule } from "@syncfusion/ej2-angular-spreadsheet";
   styleUrl: './spreadsheet.component.css'
 })
 export class SpreadsheetComponent {
-data = [];
+  title = 'patientAide';
+public data:DataManager = new DataManager({
+  url:"https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json",
+  adaptor: new WebApiAdaptor(),
+  crossDomain: true
+});
 }
