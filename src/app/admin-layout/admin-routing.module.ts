@@ -4,7 +4,7 @@ import { AdminLayoutComponent } from "./admin-layout.component";
 import { ContentComponent } from "./components/content/content.component";
 import { SpreadsheetComponent } from "./components/spreadsheet/spreadsheet.component";
 import { PagedesignComponent } from "./components/pagedesign/pagedesign.component";
-
+import {HiringComponent} from "./components/hiring/hiring.component"
 export const adminRoutes: Routes = [
       {
         path: '',
@@ -22,6 +22,10 @@ export const adminRoutes: Routes = [
       {
         path: 'pagedesign',
         component: PagedesignComponent,
+      },
+      {
+        path: 'hiring',
+        component: HiringComponent
       }
      
     ]

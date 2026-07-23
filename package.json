@@ -23,6 +23,7 @@
     "@angular/ssr": "^18.2.1",
     "@syncfusion/ej2-angular-spreadsheet": "^32.1.25",
     "express": "^4.18.2",
+    "pdfjs-dist": "^6.1.200",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
